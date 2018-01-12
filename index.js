@@ -31,7 +31,7 @@ function makeInt(n) {
 makeInt('0x2328')
 
 function preserveDecimal(n) {
-  parseFloat('2.222')
+  parseFloat(n)
   return n
 }
 
