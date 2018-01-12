@@ -31,10 +31,10 @@ function makeInt(n) {
 makeInt('0x2328')
 
 function preserveDecimal(n) {
-  parseFloat(n)
+  parseFloat('2.222')
   return n
 }
-preserveDecimal('2.222')
+
 
 
 
