@@ -28,12 +28,13 @@ function makeInt(n) {
   parseInt(n,10)
   return n
 }
+makeInt('0x2328')
 
 function preserveDecimal(n) {
   parseFloat(n)
   return n
 }
-
+preserveDecimal('2.222')
 
 
 
